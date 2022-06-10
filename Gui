@@ -107,10 +107,10 @@ local themeStyles = {
     },
     Synapse = {
         SchemeColor = Color3.fromRGB(0, 0, 0),
-        Background = Color3.fromRGB(32, 32, 32),
+        Background = Color3.fromRGB(4, 4, 4),
         Header = Color3.fromRGB(32, 32, 32),
         TextColor = Color3.fromRGB(153, 0, 0),
-        ElementColor = Color3.fromRGB(111, 116, 119)
+        ElementColor = Color3.fromRGB(227, 232, 235)
     },
     Serpent = {
         SchemeColor = Color3.fromRGB(0, 166, 58),
