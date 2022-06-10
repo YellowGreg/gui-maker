@@ -106,11 +106,11 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(24, 24, 24)
     },
     Synapse = {
-        SchemeColor = Color3.fromRGB(0, 0, 0),
+        SchemeColor = Color3.fromRGB(214, 226, 235),
         Background = Color3.fromRGB(192, 192, 192),
         Header = Color3.fromRGB(32, 32, 32),
-        TextColor = Color3.fromRGB(204, 204, 0),
-        ElementColor = Color3.fromRGB(51, 51, 0)
+        TextColor = Color3.fromRGB(255, 255, 102),
+        ElementColor = Color3.fromRGB(85, 92, 97)
     },
     Serpent = {
         SchemeColor = Color3.fromRGB(0, 166, 58),
@@ -234,7 +234,7 @@ function Kavo.CreateLib(kavName, themeList)
     Main.Parent = ScreenGui
     Main.BackgroundColor3 = themeList.Background
     Main.ClipsDescendants = true
-    Main.Position = UDim2.new(0., 5, 0., 0)
+    Main.Position = UDim2.new(0., 5, 0., 5)
     Main.Size = UDim2.new(0, 525, 0, 318)
 
     MainCorner.CornerRadius = UDim.new(0, 4)
